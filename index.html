@@ -22,6 +22,7 @@ color:#fff;
 overflow-x:hidden;
 }
 
+/* HEADER */
 header{
 position:fixed;
 width:100%;
@@ -51,6 +52,7 @@ color:#fff;
 border-bottom:2px solid #fff;
 }
 
+/* HERO SECTION */
 .hero{
 height:100vh;
 display:flex;
@@ -88,7 +90,7 @@ margin-bottom:20px;
 display:inline-block;
 font-size:60px;
 font-weight:700;
-animation:loop 40s linear infinite;
+animation:loop 35s linear infinite;
 text-shadow:0 0 20px #fff, 0 0 40px #aaa;
 }
 
@@ -120,6 +122,7 @@ transform:scale(1.1);
 background:#ccc;
 }
 
+/* SECTIONS */
 section{
 padding:100px 10%;
 text-align:center;
@@ -145,9 +148,11 @@ transform:translateY(-10px);
 box-shadow:0 0 25px rgba(255,255,255,0.3);
 }
 
+/* FORM */
 form{
 max-width:500px;
 margin:auto;
+margin-top:40px;
 }
 
 input, select, textarea{
@@ -160,6 +165,12 @@ background:#333;
 color:#fff;
 }
 
+input:focus, select:focus, textarea:focus{
+outline:none;
+box-shadow:0 0 10px #fff;
+}
+
+/* CONTACT */
 .contact-box{
 margin-top:30px;
 line-height:1.8;
@@ -258,6 +269,7 @@ font-size:35px;
 <textarea name="Address" placeholder="Address"></textarea>
 
 <button type="submit" class="btn">Submit Registration</button>
+
 </form>
 </section>
 
